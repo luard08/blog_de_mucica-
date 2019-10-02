@@ -1,0 +1,118 @@
+body{
+ 
+   font-family: 'Playfair Display', serif;
+    background-color: bisque;
+}
+
+.cabesera{
+     background-image:url(../images/banner.png);
+     background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    height: 50%;
+}
+.cabesera1_1{
+    margin-bottom: 60px;
+}
+.logo{
+    width: 10%;
+    height: auto;
+    display: block;
+    float: left;
+}
+.redes_s{
+    width: 40px;
+}
+.st_titulo{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.st_menu{
+    list-style: none;
+    display: inline;
+}
+
+.st_menu li{
+    display: inline;
+}
+
+.st_menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+     font-weight: bold;
+}
+
+.extra{
+    height: 500px;    
+}
+
+.ima_art{
+    display: block;
+    width: 30%;
+    height: auto;
+    float: right;
+}
+
+.menu_alterno{
+     list-style: none;
+}
+
+.menu_alterno a{
+     list-style: none;
+     color:#fff;
+}
+
+
+.color_nav{
+    background-color:#d53c28;
+}
+
+.color1{
+    background-color: #c9c8c8;
+}
+.color2{
+    background-color: #33282c;
+    color:#fff;
+}
+.color3{
+    background-color: #d53c28;
+    color:#fff;
+}
+.st_comentarios li{
+    border: 1px solid #000;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.st_comentarios li img{
+    width: 6%;
+    height: auto;
+    border-radius: 25px;
+}
+/*Media Query para movilas*/
+@media screen and (max-width: 766px){ 
+
+    .st_menu{
+        list-style: none;
+        display: block;
+        }
+    .st_menu li{
+        display:block;
+        }
+    .st_menu li a{
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        }
+
+
+}
